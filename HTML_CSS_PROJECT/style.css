@@ -1,0 +1,100 @@
+header{
+    background-color: rgb(152, 184, 243);
+    color: white;
+    text-align: center;
+    padding:20px;
+    text-shadow: 2px 2px 1px rgb(0, 0, 0);
+}
+nav{
+    background-color: rgb(108, 107, 107);
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 2px 2px 1px rgb(0, 0, 0);
+}
+
+nav a:hover{
+    color: gold;
+    font-weight: 900;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+    background-color: rgb(232, 232, 232);
+}
+
+section{
+    padding: 20px;
+}
+
+section h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.container{
+    display: flex;
+    background-color: rgb(204, 204, 161);
+    
+}
+
+.container div{
+    padding: 5px;
+    text-align: center;
+    border: 2px solid black;
+    margin: 2px;
+}
+
+.box{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    border: 2px solid gray;
+    border-radius: 30px;
+    margin: 1px;
+}
+
+footer{
+    background-color: rgb(104, 102, 102);
+    text-align: center;
+    padding: 10px;
+    color:white;
+}
+
+.form-box{
+    background-color: white;
+    padding: 20px;
+    width: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px ;
+    box-shadow:0 0 10px rgb(81, 80, 80);
+
+}
+
+.sub-element{
+    display: flex;
+    gap: 10px;
+}
+
+button{
+    background:rgb(172, 241, 172) ;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(27, 232, 27);
+}

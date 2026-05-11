@@ -1,0 +1,22 @@
+h1{
+    color: rgb(229, 9, 189);
+}
+
+nav{
+    background-color: aqua;
+    text-align: center;
+}
+nav a{
+    color:black;
+    margin: 2%;
+}
+.container{
+    background-color:brown;
+}
+.container div{
+    color:bisque;
+}
+.div1{
+     background-color:forestgreen;
+}
+
