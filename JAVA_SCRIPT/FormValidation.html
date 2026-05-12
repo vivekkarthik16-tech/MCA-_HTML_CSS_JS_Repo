@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> My Form</title>
+        <style>
+            h1{
+                text-align: center;
+            }
+            .form-box{
+                background-color: rgb(242, 255, 2);
+                padding: 20px;
+                display: flex;
+                flex-direction: column;
+                width: 300px;
+                margin: auto;
+                gap: 10px;
+                border: 3px solid black;
+                border-radius: 10px;
+                box-shadow:0 0 10px gray ;
+            }
+            body{
+                background: rgb(252, 0, 0);
+            }
+        </style>
+    </head>
+    <body>
+        <h1>REGISTRATION FORM</h1>
+        <form class="form-box" onsubmit="return validate()">
+            <label >Name</label>
+            <input type="text" id="name">
+             <label >Email</label>
+            <input type="email" id="email">
+             <label >Password</label>
+            <input type="password" id="pass">
+            <input type="submit">
+
+        </form>
+        <script>
+            function validate(){
+                let name = document.getElementById("name").value;
+                let email = document.getElementById("email").value;
+                let password = document.getElementById("pass").value;
+
+                if(name == "" || email == "" || password == ""){
+                    alert("all fields requiered ");
+                    return false;
+                }
+
+                alert("form submited sucessfully");
+                return true;
+            }
+        </script>
+    </body>
+</html>
