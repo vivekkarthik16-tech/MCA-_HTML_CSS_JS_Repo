@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Event Listner Handling</title>
+    </head>
+    <body>
+        <button id="btn">Click me</button>
+        <script>
+            let element = document.getElementById("btn")
+
+            element.addEventListener("click",function(){
+                alert("button clicked!...")
+            });
+
+            element.addEventListener("click",function(){
+                alert("NAmskaraaaaaaaaaaaaaaaaaaaaaaaaaaaaa Ganduu!...")
+            });
+            element.addEventListener("click",
+                element.onmouseover = function(){
+                element.style.backgroundColor = "red";
+            });
+
+            element.addEventListener("click",
+                element.onmouseleave= function(){
+                element.style.backgroundColor = "yellow";
+            });
+        </script>
+    </body>
+</html>
+
+
+ 
